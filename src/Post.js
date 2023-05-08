@@ -7,6 +7,12 @@ export default function Post(props) {
         setLike(!isLiked);
     };
 
+    function likeImage() {
+        if (isLiked !== true) {
+            setLike(true);
+        }
+    }
+
     let userLike = isLiked ? 1 : 0;
     let likeCount = initCount + userLike;
 
@@ -28,7 +34,7 @@ export default function Post(props) {
             </div>
 
             <div
-                onClick={toggleLike}
+                onDoubleClick={likeImage}
                 data-test="post-image"
                 className="conteudo"
             >

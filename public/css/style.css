@@ -306,3 +306,23 @@ ion-icon {
   color: black;
 }
 
+.likeAnimado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 10%;
+    animation: expand 0.3s;
+  }
+
+  @keyframes expand { 
+    0% {
+        width: 10%;
+        height: 10%;
+    }
+    100% {
+        width: 50%;
+        height: 50%;
+    }
+  }

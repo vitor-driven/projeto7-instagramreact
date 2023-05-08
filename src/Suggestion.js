@@ -1,14 +1,14 @@
-export default function Suggestion() {
+export default function Suggestion(props) {
     return (
-        <div class="sugestao">
-            <div class="usuario">
-                <img src="assets/img/smallcutecats.svg" alt="smallcutecats" />
-                <div class="texto">
-                    <div class="nome">smallcutecats</div>
-                    <div class="razao">Segue você</div>
+        <div className="sugestao">
+            <div className="usuario">
+                <img src={props.image} alt={props.name} />
+                <div className="texto">
+                    <div className="nome">{props.name}</div>
+                    <div className="razao">{props.reason}</div>
                 </div>
             </div>
-            <div class="seguir">Seguir</div>
+            <div className="seguir">seguir</div>
         </div>
     );
 }

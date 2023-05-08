@@ -1,16 +1,17 @@
-import User from "./User.js";
 import Suggestions from "./Suggestions.js";
+import User from "./User.js";
 
 export default function SideBar() {
     return (
-        <div class="sidebar">
-            <div class="links">
+        <div className="sidebar">
+            <User />
+            <div className="links">
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
                 Termos • Localizações • Contas mais relevantes • Hashtags •
                 Idioma
             </div>
 
-            <div class="copyright">© 2021 INSTAGRAM DO FACEBOOK</div>
+            <div className="copyright">© 2021 INSTAGRAM DO FACEBOOK</div>
         </div>
     );
 }

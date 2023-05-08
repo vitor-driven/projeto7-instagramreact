@@ -1,11 +1,11 @@
 export default function NavBar() {
-    return(
+    return (
         <div class="navbar">
             <div class="container">
                 <div class="logo">
                     <ion-icon name="logo-instagram"></ion-icon>
                     <div class="separador"></div>
-                    <img src="assets/img/logo.png" alt="logo"/>
+                    <img src="assets/img/logo.png" alt="logo" />
                 </div>
 
                 <div class="pesquisa">

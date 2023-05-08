@@ -1,9 +1,9 @@
 export default function Post() {
-    return(
+    return (
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                    <img src="assets/img/barked.svg" alt="barked"/>
+                    <img src="assets/img/barked.svg" alt="barked" />
                     barked
                 </div>
                 <div class="acoes">
@@ -17,7 +17,7 @@ export default function Post() {
 
             <div class="fundo">
                 <div class="acoes">
-                        <div>
+                    <div>
                         <ion-icon name="heart-outline"></ion-icon>
                         <ion-icon name="chatbubble-outline"></ion-icon>
                         <ion-icon name="paper-plane-outline"></ion-icon>
@@ -28,12 +28,16 @@ export default function Post() {
                 </div>
 
                 <div class="curtidas">
-                    <img src="assets/img/adorable_animals.svg" alt="adorable_animals"/>
+                    <img
+                        src="assets/img/adorable_animals.svg"
+                        alt="adorable_animals"
+                    />
                     <div class="texto">
-                        Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
+                        Curtido por <strong>adorable_animals</strong> e{" "}
+                        <strong>outras 99.159 pessoas</strong>
                     </div>
                 </div>
             </div>
-	  </div>
+        </div>
     );
 }

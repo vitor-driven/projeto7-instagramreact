@@ -1,9 +1,9 @@
-import Suggestion from './Suggestions.js';
+import Suggestion from "./Suggestions.js";
 
 export default function Suggestions() {
-    return(
+    return (
         <>
-            <Suggestion/>
+            <Suggestion />
         </>
     );
 }

@@ -1,11 +1,11 @@
-import NavBar from './NavBar.js';
-import Body from './Body.js';
+import NavBar from "./NavBar.js";
+import Body from "./Body.js";
 
 export default function App() {
-    return(
+    return (
         <div>
-            <NavBar/>
-            <Body/>
+            <NavBar />
+            <Body />
         </div>
     );
 }

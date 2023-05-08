@@ -1,9 +1,9 @@
-import Story from './Story.js';
+import Story from "./Story.js";
 
 export default function Stories() {
-    return(
+    return (
         <>
-        <Story/>
+            <Story />
             <div class="setinha">
                 <ion-icon name="chevron-forward-circle"></ion-icon>
             </div>

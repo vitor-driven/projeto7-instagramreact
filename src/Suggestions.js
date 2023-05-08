@@ -1,4 +1,4 @@
-import Suggestion from "./Suggestions.js";
+import Suggestion from "./Suggestion.js";
 
 export default function Suggestions() {
     const sugProps = [
@@ -28,5 +28,13 @@ export default function Suggestions() {
             reason: "Segue você",
         },
     ];
-    return <div className="sugestoes">{sugProps.map(Suggestion)}</div>;
+    return (
+        <div class="sugestoes">
+            <div class="titulo">
+                Sugestões para você
+                <div>Ver tudo</div>
+            </div>
+            {sugProps.map(Suggestion)}
+        </div>
+    );
 }

@@ -1,6 +1,6 @@
 export default function Post(props) {
     return (
-        <div className="post">
+        <div className="post" data-test="post">
             <div className="topo">
                 <div className="usuario">
                     <img src={props.userPic} alt={props.postUser} />

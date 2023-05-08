@@ -5,6 +5,7 @@ export default function SideBar() {
     return (
         <div className="sidebar">
             <User />
+            <Suggestions />
             <div className="links">
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
                 Termos • Localizações • Contas mais relevantes • Hashtags •
